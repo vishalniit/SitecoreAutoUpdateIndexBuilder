@@ -62,7 +62,7 @@ namespace AutoUpdateIndexer
             log.Info("------------------------------Start--------------------------------------------");
             log.Info(System.Environment.NewLine);
             log.Info(string.Format("Entered in Main Program at time {0}", DateTime.Now.ToString()));
-            if (args == null && args.Length < 1 && args.Length > 2)
+            if (args == null || args.Length < 1 || args.Length > 2)
             {
                 log.Info(Showhelp());
             }

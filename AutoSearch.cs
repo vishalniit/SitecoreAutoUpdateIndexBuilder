@@ -18,10 +18,7 @@ namespace AutoUpdateIndexer
     /// Search term auto-completer, works for single terms (so use on the last term of the query).
     /// Returns more popular terms first.
     /// <br/>
-    /// Author: Mat Mannion, M.Mannion@warwick.ac.uk
-    /// <seealso cref="http://stackoverflow.com/questions/120180/how-to-do-query-auto-completion-suggestions-in-lucene"/>
     /// </summary>
-    /// 
     public class SearchAutoComplete
     {
         public static ILog log = log4net.LogManager.GetLogger(typeof(SearchAutoComplete));
